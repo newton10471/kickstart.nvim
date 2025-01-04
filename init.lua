@@ -93,6 +93,9 @@ vim.g.maplocalleader = ' '
 -- Include Matt's custom key maps
 require 'custom.plugins.remap'
 
+-- Include Matt's custom options
+require 'custom.plugins.options'
+
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 
